@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet");
+@import url("https://fonts.googleapis.com/css?family=Erica One" rel="stylesheet");
+#tbgd {
+    color: black;
+    font-family: 'Erica One', cursive;
+    text-align: center;
+    font-size: 70px;
+    font-weight: bold;
+    position: relative;
+    top: -130px;
+    margin-bottom: -170px;
+}
+
+.explain {
+    color: black;
+    font-family: 'Pacifico', cursive;
+    font-size: 1.5em;
+    font-weight: bold;
+    font-style: italic;
+    letter-spacing: 0.1em;
+    line-height: 2.2em;
+    position: relative;
+    bottom: -30px;
+    margin-left: 36%;
+    /*margin-right: 25%;*/
+    text-align: left;
+    display: inline-block;
+}
+
+#exp1 {
+    position: relative;
+    left: -23px;
+}
+
+#exp2 {
+    position: relative;
+    left: 10px;
+}
+
+#exp3 {
+    position: relative;
+    left: -31px;
+}
+
+#exp4 {
+    position: relative;
+    left: -50px;
+}
+
+#badge1 {
+    width: 120px;
+    position: relative;
+    left: 300px;
+    /*bottom: 120px;*/
+    text-align: center;
+    vertical-align: top;
+}
+
+#badge2 {
+    width: 80px;
+    position: relative;
+    left: 320px;
+    bottom: -9px;
+    text-align: center;
+    vertical-align: top;
+}
+
+#badge3 {
+    width: 120px;
+    position: relative;
+    left: 300px;
+    bottom: -16px;
+    text-align: center;
+    vertical-align: top;
+}
+
+#badge4 {
+    width: 140px;
+    position: relative;
+    left: 291px;
+    bottom: -27px;
+    text-align: center;
+    vertical-align: top;
+}
+
+#mainMenuButtonbdg {
+    background-color: #1abc9c;
+    border: 2px solid black;
+    border-radius: 25px;
+    cursor: pointer;
+    color: black;
+    padding: 9px 10px;
+    font-size: 30px;
+    font-weight: bold;
+    width: 160px;
+    height: 60px;
+    position: relative;
+    bottom: 10px;
+}
+
+#page7 {
+    position: relative;
+    top: -80px;
+    transform: scale(0.90);
+}

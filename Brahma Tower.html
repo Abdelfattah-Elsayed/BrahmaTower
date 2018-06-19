@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <title>Brahma Tower</title>
+    <link rel="shortcut icon" href="./Brahma Tower_files/towr.ico">
+    <link rel="stylesheet" href="./Brahma Tower_files/audio_button.css">
+    <link rel="stylesheet" href="./Brahma Tower_files/page1.css">
+    <link rel="stylesheet" href="./Brahma Tower_files/page2.css">
+    <link rel="stylesheet" href="./Brahma Tower_files/page3.css">
+    <link rel="stylesheet" href="./Brahma Tower_files/page4.css">
+    <link rel="stylesheet" href="./Brahma Tower_files/page5.css">
+    <link rel="stylesheet" type="text/css" href="./Brahma Tower_files/page6.css">
+    <link rel="stylesheet" href="./Brahma Tower_files/page7.css">
+    <link rel="stylesheet" href="./Brahma Tower_files/loader.css">
+    <link rel="stylesheet" href="./Brahma Tower_files/victory_message.css">
+</head>
+
+<body data-gr-c-s-loaded="true">
+    <audio id="player" loop="">
+        <source src="assets/sounds/bg_music.mp3" type="audio/mp3">
+    </audio>
+    
+        <span></span>
+        </a>
+
+    <audio id="won">
+        <source src="assets/sounds/won.mp3" type="audio/mp3">
+    </audio>
+
+    <img class="badges" id="firstGameBadge" src="./Brahma Tower_files/1stgame(g).png">
+    <img class="badges" id="nearOptBadge" src="./Brahma Tower_files/nearopt(g).png">
+    <img class="badges" id="optimumBadge" src="./Brahma Tower_files/optimum(g).png">
+    <img class="badges" id="insaneBadge" src="./Brahma Tower_files/insane(g).png">
+    <div><img id="yourCharacter" src="./Brahma Tower_files/yourcharacter.jpg"></div>
+
+    <div id="cover" style="display: none;">
+        <div id="loader">Loading...</div>
+    </div>
+
+    <div id="page1">
+        <h1 id="gameTitle1"><span data-shadow-text="Text-Shadow">Brahma Tower</span></h1>
+        <div class="login">
+            <input id="playerName" type="text" name="player_Name" placeholder="Username at least 3 characters">
+            <button id="submitBtn" type="submit" class="btn">Next</button>
+        </div>
+    </div>
+
+    <div id="page2" style="display: none;">
+        <h1 id="gameTitle2"><span data-shadow-text="Text-Shadow" id="gameTitleSpan">Brahma Tower</span></h1>
+
+        <div id="instructions">
+            <p>
+                Welcome to Brahma Tower. Your mission is simple, just move all the disks from the leftmost tower to the rightmost tower. Remember that only one disk may be moved at a time, and it is not possible to place a bigger disk on a smaller one.
+            </p>
+        </div>
+
+        <div id="startButtonDiv">
+            <button class="btn" id="startButton">Lets's start</button>
+            <div id="divider"></div>
+            <button class="btn" id="ContinueBtn">Continue</button>
+        </div>
+
+        <div>
+            <button class="button" id="Bgs">View Badges</button>
+        </div>
+
+        <div class="box">
+            <a class="button" href="#">Credits</a>
+        </div>
+
+
+        <div id="popup1" class="overlay">
+            <div class="popup">
+                <h2>Credits:</h2>
+                <a class="cls" href="#">×</a>
+                <div class="content">
+                    An implementation of the Tower of Hanoi in HTML and JavaScript. <br> Team Members:<br> 1) Amr Essam (Amr-Elnemr).<br> 2) Kareem Adel (kareemadel).<br> 3) Muhammad Majid (plutonium239kraken).<br> 4) Shaimaa Nabil (shaimaanabil).<br><br>                    &gt;&gt;The Tower of Hanoi(another name for this puzzle)is widely believed to have been invented in 1883 by the French mathematician Édouard Lucas.
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+
+    <div id="page3" style="display: none;">
+        <div id="header">
+            <h3>Brahma Tower</h3>
+        </div>
+        <div>
+            <div class="speech-bubble">
+                <div class="talktext">
+                    <p style="display: none;">Do you know that:<br>If the legend of Brahm's Tower was true, and if the priests were able to move disks at a rate of one per second, using the smallest number of moves it would take them around 585 billion years to finish,which is
+                        about 42 times the current age of the Universe.</p>
+
+                    <p style="display: none;">Do you know that:<br>The puzzle was invented by the French mathematician Édouard Lucas in 1883. There is a story about an Indian temple in Kashi Vishwanath which contains a large room with three time-worn posts in it, surrounded by
+                        64 golden disks.</p>
+
+                    <p style="">Do you know that:<br>According to the legend, Brahmin priests have been moving Brahma Tower disks in accordance with the immutable rules of Brahma since that time. It was beleived that, when the last move of the puzzle is completed,
+                        the world will end.</p>
+
+                    <p style="display: none;">Do you know that:<br>In the film Rise of the Planet of the Apes (2011), this puzzle, called in the film the "Lucas Tower", is used as a test to study the intelligence of apes.</p>
+                </div>
+            </div>
+        </div>
+        <div>
+            <img class="chr" src="./Brahma Tower_files/001Bulbasaur_Pokemon_Mystery_Dungeon_Explorers_of_Sky.png">
+        </div>
+
+        <div>
+            <button class="button" id="mainMenuBtn">Home</button>
+        </div>
+
+        <div>
+            <button class="button" id="skipBtn">Play</button>
+        </div>
+    </div>
+
+
+    <div id="page4" style="display: none;">
+        <h1 id="typeOfPerson">What Type Of Person Are You?</h1>
+
+        <div id="tier1">
+            <h2 class="difficulty">Easy</h2>
+
+            <a href="#" class="anchor" id="easy">
+                <div class="level easyLevel">
+                </div>
+            </a>
+
+
+            <h2 class="difficulty">Average</h2>
+
+            <a href="#" class="anchor" id="average">
+                <div class="level averageLevel">
+                </div>
+            </a>
+
+        </div>
+
+        <div id="tier2">
+            <h2 class="difficulty">Hard</h2>
+
+            <a href="#" class="anchor" id="hard">
+                <div class="level hardLevel">
+                </div>
+            </a>
+
+
+            <h2 class="difficulty">Insane</h2>
+
+            <a href="#" class="anchor" id="insane">
+                <div class="level insaneLevel">
+                </div>
+            </a>
+        </div>
+
+        <div id="mainMenuButtonDiv4">
+            <button class="btn" id="mainMenuButton4">Home</button>
+        </div>
+
+
+    </div>
+
+    <div id="page5" style="display: none;">
+        <div class="Choose">
+            <h1 id="charcChoose"><span>Choose your character</span></h1>
+        </div>
+        <div class="characters">
+            <div><img id="charmander" class="cr" src="./Brahma Tower_files/004Charmander_Pokemon_Mystery_Dungeon_Explorers_of_Sky.png" width="100" height="140"></div>
+            <div><img id="pikachu" class="cr" src="./Brahma Tower_files/Cute_pikachu_with_hat_by_mlpochea-d63xlom.png" width="100" height="140"></div>
+            <div><img id="bulbasaur" class="cr" src="./Brahma Tower_files/001Bulbasaur_Pokemon_Mystery_Dungeon_Explorers_of_Sky.png" width="100" height="140"></div>
+            <div><img id="squirtle" class="cr" src="./Brahma Tower_files/Squirtle_Rojo_Fuego_y_Verde_Hoja.png" width="100" height="140"></div>
+        </div>
+        <div class="types">
+            <p>Charmander</p>
+            <p>Pikachu</p>
+            <p>Bulbasaur</p>
+            <p>Squirtle</p>
+        </div>
+        <div id="mainMenuButtonDiv5">
+            <button class="btn" id="mainMenuButton01">Home</button>
+        </div>
+    </div>
+
+    <!-- added tabindex to capture keyboard events -->
+    <div id="page6" style="display: none;" tabindex="0">
+        <div id="game">
+            <div id="moves"></div>
+            <div id="towers">
+                <ul id="tower-1" value="0"></ul>
+                <ul id="tower-2" value="1"></ul>
+                <ul id="tower-3" value="2"></ul>
+            </div>
+        </div>
+        <div id="restartDiv">
+            <button class="btn" id="restartButton">Restart</button>
+        </div>
+        <div id="mainMenuButtonDiv">
+            <button class="btn" id="mainMenuButton6">Home</button>
+        </div>
+        <div id="optimumSolutionButtonDiv">
+            <button class="btn" id="optimumSolutionButton">Optimum Solution</button>
+        </div>
+    </div>
+
+    <!-- The VictoryMessage -->
+    <div id="myVictoryMessage" class="VictoryMessage">
+
+        <!-- VictoryMessage content -->
+        <div class="VictoryMessage-content">
+            <div class="VictoryMessage-header">
+                <span class="close">×</span>
+                <h2 id="VictoryHeader">Congratulations</h2>
+            </div>
+            <div class="VictoryMessage-body">
+                <p id="VictoryMessageBody">You Have Won.</p>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="page7" style="display: none;">
+        <div id="tbgd">
+            <p>Badges</p>
+        </div>
+
+        <div>
+            <img id="badge1" src="./Brahma Tower_files/1stgame.png">
+            <p id="exp1" class="explain">Winning your First game</p>
+        </div>
+
+        <div>
+            <img id="badge2" src="./Brahma Tower_files/nearopt.png">
+            <p id="exp2" class="explain">Winning near the optimum number of moves</p>
+        </div>
+
+        <div>
+            <img id="badge3" src="./Brahma Tower_files/optimum.png">
+            <p id="exp3" class="explain">Winning with the perfect number of moves</p>
+        </div>
+
+        <div>
+            <img id="badge4" src="./Brahma Tower_files/insane.png">
+            <p id="exp4" class="explain">Winning the INSANE level</p>
+        </div>
+
+        <div>
+            <button class="button" id="mainMenuButtonbdg">Back</button>
+        </div>
+    </div>
+
+
+    <script type="text/javascript" src="./Brahma Tower_files/helper_functions.js"></script>
+    <script type="text/javascript" src="./Brahma Tower_files/buttons_And_Their_Functions.js"></script>
+    <script type="text/javascript" src="./Brahma Tower_files/randomize_pg3.js"></script>
+    <script type="text/javascript" src="./Brahma Tower_files/disk.js"></script>
+    <script type="text/javascript" src="./Brahma Tower_files/game.js"></script>
+    <script type="text/javascript" src="./Brahma Tower_files/session.js"></script>
+    <script type="text/javascript" src="./Brahma Tower_files/tower.js"></script>
+    <script type="text/javascript" src="./Brahma Tower_files/DOM_elements.js"></script>
+    <script type="text/javascript" src="./Brahma Tower_files/audio_button.js"></script>
+    <script type="text/javascript" src="./Brahma Tower_files/events.js"></script>
+    <script type="text/javascript" src="./Brahma Tower_files/test.js"></script>
+
+
+
+</body></html>
